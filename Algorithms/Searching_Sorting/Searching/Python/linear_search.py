@@ -27,7 +27,7 @@
         made over all items one by one. Every item is checked and if a match is fount then that particular
         item's position is returned, otherwise the search continues till the end of the data collection.
 """
-def lienar_search(myList: list, targetValue) -> int:
+def linear_search(myList: list, targetValue) -> int:
     """
     Function to search in iterable data structure.
 
