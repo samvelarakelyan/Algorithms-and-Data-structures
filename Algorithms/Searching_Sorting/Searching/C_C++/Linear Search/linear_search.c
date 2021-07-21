@@ -38,7 +38,7 @@
 *        'int' --> index of target value
 *If target value not found in given array, then function returns -1
 */
-int linear_search(int arr[], int length, int targerValue);
+const int linear_search(int arr[], int length, int targerValue);
 void swap (int *a, int *b);
 void randomize (int arr[], int length);
 
@@ -110,7 +110,7 @@ int i;
 }
 
 
-int linear_search(int arr[], int length, int targerValue){
+const int linear_search(int arr[], int length, int targerValue){
     int i;
     for (i = 0; i < length; i++){
         if (arr[i] == targerValue){
