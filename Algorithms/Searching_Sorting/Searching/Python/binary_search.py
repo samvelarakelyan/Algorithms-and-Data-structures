@@ -81,7 +81,6 @@ def binary_search_rightmost(myList: list, target_value: int) -> int:
 
     while left < right:
         middle = (left + right) // 2
-        
         if myList[middle] > target_value:
             right = middle
         else:
