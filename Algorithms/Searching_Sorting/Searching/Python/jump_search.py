@@ -26,14 +26,14 @@
                 (Binary Search may require up to O(Log n) jumps, consider a situation where the element to be searched is the
                 smallest element or smaller than the smallest).
 """
+import math
+
 def jump_search(myList: list, value):
     """
     Returns
     -------
         'int' --> index of value or -1 if value not found in given list
     """
-    import math
-
     jump_size = math.sqrt(len(myList))
     left = 0
 
