@@ -6,9 +6,13 @@
     Time complexity
     ---------------
         O(log n)
+
+
     Space complexity
     ----------------
         O(log n)
+ 
+ 
         It's because binary_search is implemented with recursion
         otherwise it will be O(1)
     worst-case  time compleasity   -->  O(log n)
