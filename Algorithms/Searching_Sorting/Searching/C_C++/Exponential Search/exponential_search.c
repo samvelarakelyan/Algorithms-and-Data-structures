@@ -41,7 +41,9 @@
 
 #define MIN(X, Y) (((X) < (Y)) ? (X) : (Y))
 
-
+/**
+ * Returns index of targetValue or -1 if value doesn't present in a array.
+*/
 const int exponentialSearch(int sortedArr[], int length, int targetValue);
 /**
  * This function ignore a rpeated elements.
@@ -63,6 +65,9 @@ int main(int argc, char* argv[]){
 
 
 const int exponentialSearch(int sortedArr[], int length, int targetValue){
+    if (length == 0)
+        return -1;
+
     if (sortedArr[0] == targetValue)
         return 0;
     
