@@ -39,6 +39,9 @@
 #include <iostream>
 
 
+/**
+ * Returns index of targetValue or -1 if value doesn't present in a array.
+*/
 const int exponentialSearch(int sortedArr[], int length, int targetValue);
 /**
  * This function ignore a rpeated elements.
