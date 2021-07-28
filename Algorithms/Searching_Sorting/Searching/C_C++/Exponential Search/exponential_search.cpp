@@ -60,6 +60,9 @@ int main(int argc, char* argv[]){
 
 
 const int exponentialSearch(int sortedArr[], int length, int targetValue){
+    if (length == 0)
+        return -1;
+
     if (sortedArr[0] == targetValue)
         return 0;
     
