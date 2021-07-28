@@ -94,7 +94,7 @@ void printArray(int arr[], int length){
 
 
 void testsExponentialSearch(){
-        int arr1[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int arr1[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int arr2[0] = {};
     int arr3[16] = {-89, -54, -23, 0, 2, 5, 10, 36, 78, 192, 198, 201, 205, 248, 260, 300};
 
